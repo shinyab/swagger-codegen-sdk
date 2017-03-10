@@ -1,0 +1,14 @@
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/ApiException.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/auth/Authentication.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/Pair.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/request/DeleteRequest.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/request/GetRequest.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/model/Empty.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/auth/ApiKeyAuth.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/api/TestingApi.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/auth/HttpBasicAuth.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/JsonUtil.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/request/PutRequest.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/request/PatchRequest.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/request/PostRequest.java
+/Users/shinyab/bluehack/2017/development/swagger-codegen/swagger/generate/src/main/java/io/swagger/client/ApiInvoker.java
