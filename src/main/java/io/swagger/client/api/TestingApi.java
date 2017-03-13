@@ -35,7 +35,7 @@ import java.util.*;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 
-import io.swagger.client.model.Empty;
+import io.swagger.client.model.Cat;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
@@ -70,9 +70,9 @@ public class TestingApi {
   /**
   * 
   * 
-   * @return Empty
+   * @return Cat
   */
-  public Empty optionSwaggerCodegen () throws TimeoutException, ExecutionException, InterruptedException, ApiException {
+  public Cat optionSwaggerCodegen () throws TimeoutException, ExecutionException, InterruptedException, ApiException {
      Object postBody = null;
   
 
@@ -109,7 +109,7 @@ public class TestingApi {
       try {
         String localVarResponse = apiInvoker.invokeAPI (basePath, path, "GET", queryParams, postBody, headerParams, formParams, contentType, authNames);
         if(localVarResponse != null){
-           return (Empty) ApiInvoker.deserialize(localVarResponse, "", Empty.class);
+           return (Cat) ApiInvoker.deserialize(localVarResponse, "", Cat.class);
         } else {
            return null;
         }
@@ -135,7 +135,7 @@ public class TestingApi {
    * 
 
   */
-  public void optionSwaggerCodegen (final Response.Listener<Empty> responseListener, final Response.ErrorListener errorListener) {
+  public void optionSwaggerCodegen (final Response.Listener<Cat> responseListener, final Response.ErrorListener errorListener) {
     Object postBody = null;
 
   
@@ -176,7 +176,7 @@ public class TestingApi {
           @Override
           public void onResponse(String localVarResponse) {
             try {
-              responseListener.onResponse((Empty) ApiInvoker.deserialize(localVarResponse,  "", Empty.class));
+              responseListener.onResponse((Cat) ApiInvoker.deserialize(localVarResponse,  "", Cat.class));
             } catch (ApiException exception) {
                errorListener.onErrorResponse(new VolleyError(exception));
             }

@@ -65,7 +65,7 @@ public class TestingApiExample {
     public static void main(String[] args) {
         TestingApi apiInstance = new TestingApi();
         try {
-            Empty result = apiInstance.optionSwaggerCodegen();
+            Cat result = apiInstance.optionSwaggerCodegen();
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling TestingApi#optionSwaggerCodegen");
@@ -87,7 +87,10 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
- - [Empty](docs/Empty.md)
+ - [Animal](docs/Animal.md)
+ - [AnimalCat](docs/AnimalCat.md)
+ - [Cat](docs/Cat.md)
+ - [Pet](docs/Pet.md)
 
 
 ## Documentation for Authorization

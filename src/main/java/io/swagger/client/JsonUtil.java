@@ -59,8 +59,20 @@ public class JsonUtil {
   public static Type getListTypeForDeserialization(Class cls) {
     String className = cls.getSimpleName();
     
-    if ("Empty".equalsIgnoreCase(className)) {
-      return new TypeToken<List<Empty>>(){}.getType();
+    if ("Animal".equalsIgnoreCase(className)) {
+      return new TypeToken<List<Animal>>(){}.getType();
+    }
+    
+    if ("AnimalCat".equalsIgnoreCase(className)) {
+      return new TypeToken<List<AnimalCat>>(){}.getType();
+    }
+    
+    if ("Cat".equalsIgnoreCase(className)) {
+      return new TypeToken<List<Cat>>(){}.getType();
+    }
+    
+    if ("Pet".equalsIgnoreCase(className)) {
+      return new TypeToken<List<Pet>>(){}.getType();
     }
     
     return new TypeToken<List<Object>>(){}.getType();
@@ -69,8 +81,20 @@ public class JsonUtil {
   public static Type getTypeForDeserialization(Class cls) {
     String className = cls.getSimpleName();
     
-    if ("Empty".equalsIgnoreCase(className)) {
-      return new TypeToken<Empty>(){}.getType();
+    if ("Animal".equalsIgnoreCase(className)) {
+      return new TypeToken<Animal>(){}.getType();
+    }
+    
+    if ("AnimalCat".equalsIgnoreCase(className)) {
+      return new TypeToken<AnimalCat>(){}.getType();
+    }
+    
+    if ("Cat".equalsIgnoreCase(className)) {
+      return new TypeToken<Cat>(){}.getType();
+    }
+    
+    if ("Pet".equalsIgnoreCase(className)) {
+      return new TypeToken<Pet>(){}.getType();
     }
     
     return new TypeToken<Object>(){}.getType();

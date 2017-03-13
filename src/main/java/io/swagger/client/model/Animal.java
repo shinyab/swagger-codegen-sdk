@@ -30,8 +30,20 @@ import com.google.gson.annotations.SerializedName;
 
 
 @ApiModel(description = "")
-public class Empty  {
+public class Animal  {
   
+  @SerializedName("name")
+  private String name = null;
+
+  /**
+   **/
+  @ApiModelProperty(required = true, value = "")
+  public String getName() {
+    return name;
+  }
+  public void setName(String name) {
+    this.name = name;
+  }
 
 
   @Override
@@ -42,21 +54,23 @@ public class Empty  {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    Empty empty = (Empty) o;
-    return true;
+    Animal animal = (Animal) o;
+    return (name == null ? animal.name == null : name.equals(animal.name));
   }
 
   @Override
   public int hashCode() {
     int result = 17;
+    result = 31 * result + (name == null ? 0: name.hashCode());
     return result;
   }
 
   @Override
   public String toString()  {
     StringBuilder sb = new StringBuilder();
-    sb.append("class Empty {\n");
+    sb.append("class Animal {\n");
     
+    sb.append("  name: ").append(name).append("\n");
     sb.append("}\n");
     return sb.toString();
   }

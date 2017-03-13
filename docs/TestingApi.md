@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 <a name="optionSwaggerCodegen"></a>
 # **optionSwaggerCodegen**
-> Empty optionSwaggerCodegen()
+> Cat optionSwaggerCodegen()
 
 
 
@@ -20,7 +20,7 @@ Method | HTTP request | Description
 
 TestingApi apiInstance = new TestingApi();
 try {
-    Empty result = apiInstance.optionSwaggerCodegen();
+    Cat result = apiInstance.optionSwaggerCodegen();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling TestingApi#optionSwaggerCodegen");
@@ -33,7 +33,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**Empty**](Empty.md)
+[**Cat**](Cat.md)
 
 ### Authorization
 
